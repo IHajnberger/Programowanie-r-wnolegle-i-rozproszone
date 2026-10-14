@@ -26,7 +26,7 @@ namespace Gornik
         {
             Console.Clear();
 
-            int[] minersToTest = {1, 2, 3, 4, 5, 6};
+            int[] minersToTest = { 1, 2, 3, 4, 5, 6 };
             double baseTime = 0;
 
             foreach (int m in minersToTest)
@@ -82,12 +82,12 @@ namespace Gornik
                 Console.WriteLine($"\nWyniki dla {curr} górników:");
                 Console.WriteLine($"Czas: {timeInSeconds} s");
                 Console.WriteLine($"Przyśpieszenie: {acc}");
+                Console.WriteLine($"Efektywność: {efficiency}");
                 Console.ReadKey();
             }
 
             Console.Clear();
             Console.WriteLine("Wszystkie testy zostały zakończone.");
-            Console.CursorVisible = true;
         }
 
         static void Mining(int minerid)
