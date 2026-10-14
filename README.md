@@ -1,0 +1,1 @@
+# Programowanie-r-wnolegle-i-rozproszone
